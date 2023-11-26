@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment{
-        SONARSERVER = 'sonarserver'
+        SONARSERVER = 'sonarqube-server'
     }
     stages {
         stage('SonarQube analysis') {
